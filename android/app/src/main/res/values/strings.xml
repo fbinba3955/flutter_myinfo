@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">棱镜</string>
+
+    <string name="welcome_title">棱镜</string>
+
+    <string name="user_login">用户登录</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="logout">注销</string>
+
+    <string name="login_fail_msg">请输入正确的用户名密码</string>
+
+    <string name="loading_title">请稍等</string>
+    <string name="laoding_detail">正在加载数据</string>
+
+    <string name="medicine">医药</string>
+    <string name="medicine_detail">整理一些医药方面的信息</string>
+
+    <string name="learn">学习</string>
+    <string name="learn_detail">与学习相关的内容，提高自己</string>
+
+    <string name="my">自娱自乐</string>
+    <string name="my_detail">个人感兴趣的一些东西</string>
+
+    <string name="njszrl">南京市中医院</string>
+    <string name="njszrl_des">这是关于南京市中医院的招聘信息，包含应届、往届的最新招聘信息。</string>
+    <string name="look">查看</string>
+
+    <string name="hj">沪江日语热门</string>
+    <string name="hj_detail">沪江日语的首页热门推荐</string>
+
+    <string name="cardother">待添加</string>
+    <string name="cardother_des">……</string>
+
+    <string name="title_hj">沪江日语推荐</string>
+</resources>
