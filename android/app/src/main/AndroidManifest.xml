@@ -64,6 +64,8 @@
             android:screenOrientation="portrait"></activity>
         <activity android:name="com.kiana.sjt.myinfocollecter.home.view.LoginActivity"
             android:screenOrientation="portrait"></activity>
+        <activity android:name="com.kiana.sjt.myinfocollecter.MainActivity"></activity>
+        <activity android:name="com.kiana.sjt.fluttermyinfo.MainActivity"></activity>
 
         <service android:name="com.kiana.sjt.myinfocollecter.utils.music.MusicService"></service>
         <service android:name="com.kiana.sjt.myinfocollecter.tts.TTSZenTaoService"></service>

@@ -41,9 +41,9 @@ public class MedicineHomeActivity extends MainActivity{
         mViewPager = (ViewPager) findViewById(R.id.viewPager);
         mCardAdapter = new CardPagerAdapter();
         mCardAdapter.addCardItem(new CardItem(getString(R.string.njszrl), getString(R.string.njszrl_des), getString(R.string.look), listener));
-        mCardAdapter.addCardItem(new CardItem(getString(R.string.cardother), getString(R.string.cardother_des), getString(R.string.look), listener));
-        mCardAdapter.addCardItem(new CardItem(getString(R.string.cardother), getString(R.string.cardother_des), getString(R.string.look), listener));
-        mCardAdapter.addCardItem(new CardItem(getString(R.string.cardother), getString(R.string.cardother_des), getString(R.string.look), listener));
+        mCardAdapter.addCardItem(new CardItem(getString(R.string.cardother), getString(R.string.cardother_des), getString(R.string.look), flutterListener));
+        mCardAdapter.addCardItem(new CardItem(getString(R.string.cardother), getString(R.string.cardother_des), getString(R.string.look), flutterListener));
+        mCardAdapter.addCardItem(new CardItem(getString(R.string.cardother), getString(R.string.cardother_des), getString(R.string.look), flutterListener));
         mCardShadowTransformer = new ShadowTransformer(mViewPager, mCardAdapter);
         mCardShadowTransformer.enableScaling(true);
         mViewPager.setAdapter(mCardAdapter);
@@ -55,6 +55,14 @@ public class MedicineHomeActivity extends MainActivity{
         @Override
         public void onClick(View view) {
             Intent intent = new Intent(MedicineHomeActivity.this, NjszNewsActivity.class);
+            startActivity(intent);
+        }
+    };
+
+    private View.OnClickListener flutterListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(MedicineHomeActivity.this, com.kiana.sjt.fluttermyinfo.MainActivity.class);
             startActivity(intent);
         }
     };
